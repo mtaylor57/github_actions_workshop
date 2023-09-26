@@ -1,10 +1,10 @@
 name: Say hello world!
 
 on:
-    workflow-dispatch:
-
+    workflow_dispatch: 
+    
 jobs:
-    hello_world:
+    hello-world:
         runs-on: ubuntu-latest
         steps:
             - name: Print Hello World
